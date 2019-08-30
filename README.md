@@ -16,7 +16,7 @@ k8s 部署 java和php dome
   docker login --username=admin 192.168.1.1
   
  -- 推送试一下：
-  docker push 47.96.166.49/project/java:latest
+  docker push 192.168.1.1/project/java:latest
 ###
 ### mvn clean package
 ### docker build .  harborIP/project/java:v1
